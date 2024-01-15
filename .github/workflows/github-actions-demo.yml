@@ -15,5 +15,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "event name is:" ${{ github.event_name }} 
-      - run: echo "branch is:" ${{env.GITHUB_REF_NAME}} 
+      - run: echo "branch is:" ${{github.ref}} 
   
