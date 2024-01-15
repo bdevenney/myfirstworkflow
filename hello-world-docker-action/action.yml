@@ -6,7 +6,7 @@ inputs:
     required: true
 outputs:
   time:
-    decription "The current time"
+    decription: "The current time"
 
 runs:
   using: 'docker'
